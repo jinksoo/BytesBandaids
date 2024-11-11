@@ -36,7 +36,7 @@ def calculate_risk_score(data_line):
     total_score = sum(scores.values())
     
     # Return total score and original lines as a formatted string for output
-    output_lines = [f"Risk Score: {total_score}: {line}" for line in original_lines]
+    output_lines = [f"Risk Score: {line}" for line in original_lines]
     return total_score, scores, output_lines, data_line
 
 # Define the main function to read, process, and append output line by line
@@ -99,6 +99,27 @@ def main():
         stats_file.write(f"# of medication compliance YES: {medication_compliance_yes_count}\n")
         stats_file.write(f"# of social determinants YES: {social_determinants_yes_count}\n")
         stats_file.write(f"Total number of lines: {total_lines}\n")
+
+    with open(input_filename, 'r') as infile, open(shortened_output_filename, 'a') as outfile:
+        for line in infile:
+            line = line.strip()
+            # Skip lines that start with an integer
+            if line and not line[0].isdigit():
+
+                # Process each line to calculate score and formatted output
+                total_score, scores, output_lines, orig_line = calculate_risk_score(line)
+                
+                # Update category-specific counts
+                diet_yes_count += scores["diet"]
+                mental_health_yes_count += scores["mental_health"]
+                medication_compliance_yes_count += scores["medication_compliance"]
+                social_determinants_yes_count += scores["social_determinants"]
+
+                # Write to the output file
+                outfile.write(f"Total Risk Score = {total_score}\n")
+                for output_line in output_lines:
+                    outfile.write(output_line + "\n")
+                outfile.write("\n")  # Add newline for readability between records
 
     print(f"Processing complete. Statistics written to {statistics_filename}")
 
