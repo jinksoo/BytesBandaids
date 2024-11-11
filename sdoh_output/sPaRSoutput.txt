@@ -1,378 +1,378 @@
 Total Risk Score = 2
-Risk Score: 2: diet: No
-Risk Score: 2: mental health: Yes
-Risk Score: 2: medication compliance: No
-Risk Score: 2: social determinants of health: Yes
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: Yes
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: No
-Risk Score: 1: medication compliance: Yes
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: medication compliance: Yes
+Risk Score: social determinants of health: No
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: No
-Risk Score: 1: medication compliance: Yes
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: medication compliance: Yes
+Risk Score: social determinants of health: No
 
 Total Risk Score = 2
-Risk Score: 2: diet: No
-Risk Score: 2: mental health: Yes
-Risk Score: 2: medication compliance: No
-Risk Score: 2: social determinants of health: Yes
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: Yes
 
 Total Risk Score = 1
-Risk Score: 1: diet: Yes
-Risk Score: 1: mental health: No
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: Yes
+Risk Score: mental health: No
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: No
-Risk Score: 1: medication compliance: Yes
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: medication compliance: Yes
+Risk Score: social determinants of health: No
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: No
-Risk Score: 1: medication compliance: Yes
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: medication compliance: Yes
+Risk Score: social determinants of health: No
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: No
-Risk Score: 1: medication compliance: Yes
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: medication compliance: Yes
+Risk Score: social determinants of health: No
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: No
-Risk Score: 1: medication compliance: Yes
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: medication compliance: Yes
+Risk Score: social determinants of health: No
 
 Total Risk Score = 2
-Risk Score: 2: diet: No
-Risk Score: 2: mental health: Yes
-Risk Score: 2: medication compliance: Yes
-Risk Score: 2: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: Yes
+Risk Score: social determinants of health: No
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: No
-Risk Score: 1: medication compliance: Yes
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: medication compliance: Yes
+Risk Score: social determinants of health: No
 
 Total Risk Score = 0
-Risk Score: 0: diet: No
-Risk Score: 0: mental health: No
-Risk Score: 0: medication compliance: No
-Risk Score: 0: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
 
 Total Risk Score = 2
-Risk Score: 2: diet: No
-Risk Score: 2: mental health: Yes
-Risk Score: 2: medication compliance: No
-Risk Score: 2: social determinants of health: Yes
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: Yes
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: Yes
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
 
 Total Risk Score = 2
-Risk Score: 2: diet: No
-Risk Score: 2: mental health: Yes
-Risk Score: 2: medication compliance: No
-Risk Score: 2: social determinants of health: Yes
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: Yes
 
 Total Risk Score = 2
-Risk Score: 2: diet: No
-Risk Score: 2: mental health: Yes
-Risk Score: 2: medication compliance: Yes
-Risk Score: 2: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: Yes
+Risk Score: social determinants of health: No
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: No
-Risk Score: 1: medication compliance: Yes
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: medication compliance: Yes
+Risk Score: social determinants of health: No
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: Yes
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: No
-Risk Score: 1: medication compliance: Yes
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: medication compliance: Yes
+Risk Score: social determinants of health: No
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: No
-Risk Score: 1: medication compliance: Yes
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: medication compliance: Yes
+Risk Score: social determinants of health: No
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: Yes
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: No
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: Yes
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: Yes
 
 Total Risk Score = 0
-Risk Score: 0: diet: No
-Risk Score: 0: mental health: No
-Risk Score: 0: medication compliance: No
-Risk Score: 0: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
 
 Total Risk Score = 2
-Risk Score: 2: diet: No
-Risk Score: 2: mental health: Yes
-Risk Score: 2: medication compliance: Yes
-Risk Score: 2: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: Yes
+Risk Score: social determinants of health: No
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: Yes
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: No
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: Yes
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: Yes
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: Yes
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
 
 Total Risk Score = 2
-Risk Score: 2: diet: No
-Risk Score: 2: mental health: Yes
-Risk Score: 2: medication compliance: No
-Risk Score: 2: social determinants of health: Yes
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: Yes
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: Yes
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: No
-Risk Score: 1: medication compliance: Yes
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: medication compliance: Yes
+Risk Score: social determinants of health: No
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: Yes
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: Yes
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: Yes
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: Yes
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
 
 Total Risk Score = 2
-Risk Score: 2: diet: Yes
-Risk Score: 2: mental health: Yes
-Risk Score: 2: medication compliance: No
-Risk Score: 2: social determinants of health: No
+Risk Score: diet: Yes
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
 
 Total Risk Score = 2
-Risk Score: 2: diet: Yes
-Risk Score: 2: mental health: Yes
-Risk Score: 2: medication compliance: No
-Risk Score: 2: social determinants of health: No
+Risk Score: diet: Yes
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
 
 Total Risk Score = 2
-Risk Score: 2: diet: Yes
-Risk Score: 2: mental health: Yes
-Risk Score: 2: medication compliance: No
-Risk Score: 2: social determinants of health: No
-
-Total Risk Score = 0
-
-Total Risk Score = 1
-Risk Score: 1: diet: Yes
-Risk Score: 1: mental health: No
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
-
-Total Risk Score = 1
-Risk Score: 1: diet: Yes
-Risk Score: 1: mental health: No
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
-
-Total Risk Score = 1
-Risk Score: 1: diet: Yes
-Risk Score: 1: mental health: No
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
-
-Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: Yes
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
-
-Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: Yes
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
-
-Total Risk Score = 2
-Risk Score: 2: diet: No
-Risk Score: 2: mental health: Yes
-Risk Score: 2: medication compliance: No
-Risk Score: 2: social determinants of health: Yes
-
-Total Risk Score = 0
-
-Total Risk Score = 2
-Risk Score: 2: diet: Yes
-Risk Score: 2: mental health: Yes
-Risk Score: 2: medication compliance: No
-Risk Score: 2: social determinants of health: No
-
-Total Risk Score = 1
-Risk Score: 1: diet: Yes
-Risk Score: 1: mental health: No
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
-
-Total Risk Score = 2
-Risk Score: 2: diet: Yes
-Risk Score: 2: mental health: No
-Risk Score: 2: medication compliance: No
-Risk Score: 2: social determinants of health: Yes
-
-Total Risk Score = 1
-Risk Score: 1: diet: Yes
-Risk Score: 1: mental health: No
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: Yes
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
 
 Total Risk Score = 0
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: Yes
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: Yes
+Risk Score: mental health: No
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
+
+Total Risk Score = 1
+Risk Score: diet: Yes
+Risk Score: mental health: No
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
+
+Total Risk Score = 1
+Risk Score: diet: Yes
+Risk Score: mental health: No
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
 
 Total Risk Score = 2
-Risk Score: 2: diet: Yes
-Risk Score: 2: mental health: Yes
-Risk Score: 2: medication compliance: No
-Risk Score: 2: social determinants of health: No
-
-Total Risk Score = 2
-Risk Score: 2: diet: No
-Risk Score: 2: mental health: Yes
-Risk Score: 2: medication compliance: No
-Risk Score: 2: social determinants of health: Yes
-
-Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: Yes
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
-
-Total Risk Score = 1
-Risk Score: 1: diet: Yes
-Risk Score: 1: mental health: No
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
-
-Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: Yes
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: Yes
 
 Total Risk Score = 0
 
 Total Risk Score = 2
-Risk Score: 2: diet: Yes
-Risk Score: 2: mental health: Yes
-Risk Score: 2: medication compliance: No
-Risk Score: 2: social determinants of health: No
+Risk Score: diet: Yes
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
+
+Total Risk Score = 1
+Risk Score: diet: Yes
+Risk Score: mental health: No
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
+
+Total Risk Score = 2
+Risk Score: diet: Yes
+Risk Score: mental health: No
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: Yes
+
+Total Risk Score = 1
+Risk Score: diet: Yes
+Risk Score: mental health: No
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
+
+Total Risk Score = 0
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
+
+Total Risk Score = 2
+Risk Score: diet: Yes
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
+
+Total Risk Score = 2
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: Yes
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
+
+Total Risk Score = 1
+Risk Score: diet: Yes
+Risk Score: mental health: No
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
+
+Total Risk Score = 0
+
+Total Risk Score = 2
+Risk Score: diet: Yes
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
 
 Total Risk Score = 3
-Risk Score: 3: diet: Yes
-Risk Score: 3: mental health: Yes
-Risk Score: 3: medication compliance: No
-Risk Score: 3: social determinants of health: Yes
+Risk Score: diet: Yes
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: Yes
 
 Total Risk Score = 0
 
 Total Risk Score = 1
-Risk Score: 1: diet: Yes
-Risk Score: 1: mental health: No
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: Yes
+Risk Score: mental health: No
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: Yes
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
 
 Total Risk Score = 2
-Risk Score: 2: diet: Yes
-Risk Score: 2: mental health: No
-Risk Score: 2: medication compliance: No
-Risk Score: 2: social determinants of health: Yes
+Risk Score: diet: Yes
+Risk Score: mental health: No
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: Yes
 
 Total Risk Score = 0
 
 Total Risk Score = 1
-Risk Score: 1: diet: No
-Risk Score: 1: mental health: Yes
-Risk Score: 1: medication compliance: No
-Risk Score: 1: social determinants of health: No
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
 
 Total Risk Score = 2
-Risk Score: 2: diet: Yes
-Risk Score: 2: mental health: Yes
-Risk Score: 2: medication compliance: No
-Risk Score: 2: social determinants of health: No
+Risk Score: diet: Yes
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: No
 
 Total Risk Score = 2
-Risk Score: 2: diet: No
-Risk Score: 2: mental health: Yes
-Risk Score: 2: medication compliance: No
-Risk Score: 2: social determinants of health: Yes
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: medication compliance: No
+Risk Score: social determinants of health: Yes
 
