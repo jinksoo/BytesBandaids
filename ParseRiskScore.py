@@ -108,12 +108,6 @@ def main():
 
                 # Process each line to calculate score and formatted output
                 total_score, scores, output_lines, orig_line = calculate_risk_score(line)
-                
-                # Update category-specific counts
-                diet_yes_count += scores["diet"]
-                mental_health_yes_count += scores["mental_health"]
-                medication_compliance_yes_count += scores["medication_compliance"]
-                social_determinants_yes_count += scores["social_determinants"]
 
                 # Write to the output file
                 outfile.write(f"Total Risk Score = {total_score}\n")
