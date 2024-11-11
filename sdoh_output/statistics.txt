@@ -1,0 +1,9 @@
+Statistics:
+# of 1 YES: 38
+# of 2 YES: 20
+# of 3+ YES: 1
+# of diet YES: 18
+# of mental health YES: 36
+# of medication compliance YES: 14
+# of social determinants YES: 13
+Total number of lines: 67
