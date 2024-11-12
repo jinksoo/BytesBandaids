@@ -4,7 +4,7 @@ import json
 
 import pandas as pd
 import re
-import json
+import jsonwhat 
 
 
 
@@ -47,4 +47,3 @@ df = load_data(dataset_file)
 df['doctor_dialogue'] = df['dialogue'].apply(extract_doctor_dialogue)
 df['patient_dialogue'] = df['dialogue'].apply(extract_patient_dialogue)
 
-print(df['patient_dialogue'])
