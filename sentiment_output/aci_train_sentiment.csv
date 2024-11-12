@@ -1,4 +1,4 @@
-dataset,encounter_id,dialogue,note,doctor_name,patient_gender,patient_age,patient_firstname,patient_lastname,chief_complaint,addition_complaints,doctor_dialogue,patient_dialogue,doctor_dialogue_neg,doctor_dialogue_neu,doctor_dialogue_pos,doctor_dialogue_compound,patient_dialogue_neg,patient_dialogue_neu,patient_dialogue_pos,patient_dialogue_compound
+dataset,encounter_id,dialogue,note,doctor_name,patient_gender,patient_age,patient_firstname,patient_lastname,chief_complaint,addition_complaints,doctor_dialogue,patient_dialogue,doctor_dialogue_neg,doctor_dialogue_neu,doctor_dialogue_pos,doctor_dialogue_compound,patient_dialogue_neg,patient_dialogue_neu,patient_dialogue_pos,patient_dialogue_compound,neg_diff,neu_diff,pos_diff,compound_diff
 virtassist,D2N001,"[doctor] hi , martha . how are you ?
 [patient] i'm doing okay . how are you ?
 [doctor] i'm doing okay . so , i know the nurse told you about dax . i'd like to tell dax a little bit about you , okay ?
@@ -172,7 +172,7 @@ Patient Agreements: The patient understands and agrees with the recommended medi
   'cause i've been trying to take them at different times of the day , 'cause i did n't know if it was bad to take them all at once or i should separate them . i do n't know .
   okay .
   that might help me remember better .
-  good seeing you too .",0.067,0.777,0.156,0.9972,0.071,0.716,0.213,0.9873
+  good seeing you too .",0.067,0.777,0.156,0.9972,0.071,0.716,0.213,0.9873,-0.00399999999999999,0.061000000000000054,-0.056999999999999995,0.00990000000000002
 virtassist,D2N002,"[doctor] hi , andrew , how are you ?
 [patient] hi . good to see you .
 [doctor] it's good to see you as well . so i know that the nurse told you about dax . i'd like to tell dax a little bit about you .
@@ -394,7 +394,7 @@ Patient Agreements: The patient understands and agrees with the recommended medi
   sure .
   mm-hmm .
   you got it .
-  not at this point .",0.056,0.805,0.139,0.9935,0.143,0.638,0.218,0.9628
+  not at this point .",0.056,0.805,0.139,0.9935,0.143,0.638,0.218,0.9628,-0.087,0.16700000000000004,-0.07899999999999999,0.03070000000000006
 virtassist,D2N003,"[doctor] hi , john . how are you ?
 [patient] hey . well , relatively speaking , okay . good to see you .
 [doctor] good to see you as well . so i know the nurse told you about dax . i'm gon na tell dax a little bit about you .
@@ -553,7 +553,7 @@ Patient Agreements: The patient understands and agrees with the recommended medi
   actually , i do need a refill .
   perfect .
   you got it .
-  thank you .",0.072,0.802,0.126,0.9697,0.079,0.698,0.223,0.9952
+  thank you .",0.072,0.802,0.126,0.9697,0.079,0.698,0.223,0.9952,-0.007000000000000006,0.10400000000000009,-0.097,-0.025499999999999967
 virtassist,D2N004,"[doctor] hi , james , how are you ?
 [patient] hey , good to see you .
 [doctor] it's good to see you , too . so , i know the nurse told you about dax .
@@ -798,7 +798,7 @@ The patient will follow-up in 2 weeks.",,male,57.0,James,Allen,back pain,congest
   actually , i-
   actually , i do .
   that's fine .
-  not at this point .",0.054,0.818,0.128,0.9929,0.091,0.648,0.261,0.9951
+  not at this point .",0.054,0.818,0.128,0.9929,0.091,0.648,0.261,0.9951,-0.037,0.16999999999999993,-0.133,-0.0021999999999999797
 virtassist,D2N005,"[doctor] hey , ms. hill . nice to see you .
 [patient] hi , dr. james , good to see you .
 [doctor] hey , dragon , i'm seeing ms. hill . she's a 41-year-old female , and what brings you in today ?
@@ -905,7 +905,7 @@ all right . any other questions for me ?
   okay .
   yes . so i'm taking digoxin for afib . will the tramadol be okay with that ?
   yes .
-  no , that's it . thank you .",0.104,0.798,0.098,-0.7953,0.125,0.654,0.22,0.9701
+  no , that's it . thank you .",0.104,0.798,0.098,-0.7953,0.125,0.654,0.22,0.9701,-0.021000000000000005,0.14400000000000002,-0.122,-1.7654
 virtassist,D2N006,"[doctor] hi , anna . how are you ?
 [patient] i'm doing okay . how are you ?
 [doctor] i'm doing okay . so i know the nurse told you about dax . i'd like to tell dax a little bit about you .
@@ -1088,7 +1088,7 @@ Patient Agreements: The patient understands and agrees with the recommended medi
   okay .
   yes , i do actually .
   okay .
-  uh , no . that's it .",0.039,0.831,0.131,0.9949,0.071,0.698,0.232,0.9803
+  uh , no . that's it .",0.039,0.831,0.131,0.9949,0.071,0.698,0.232,0.9803,-0.031999999999999994,0.133,-0.101,0.014600000000000057
 virtassist,D2N007,"[doctor] and why is she here ? annual exam . okay . all right . hi , sarah . how are you ?
 [patient] good . how are you ?
 [doctor] i'm good . are you ready to get started ?
@@ -1212,7 +1212,7 @@ History of coronary artery bypass graft.
   that sounds great .
   okay .
   okay .
-  thank you .",0.066,0.804,0.129,0.9822,0.116,0.709,0.175,0.9633
+  thank you .",0.066,0.804,0.129,0.9822,0.116,0.709,0.175,0.9633,-0.05,0.09500000000000008,-0.045999999999999985,0.018899999999999917
 virtassist,D2N008,"[doctor] hi , stephanie . how are you ?
 [patient] i'm doing okay . how are you ?
 [doctor] i'm doing okay . um , so i know the nurse talked to you about dax . i'd like to tell dax a little bit about you , okay ?
@@ -1364,7 +1364,7 @@ Patient Agreements: The patient understands and agrees with the recommended medi
   okay .
   all right .
   okay .
-  not that i can think of .",0.077,0.781,0.142,0.9932,0.212,0.699,0.089,-0.9846
+  not that i can think of .",0.077,0.781,0.142,0.9932,0.212,0.699,0.089,-0.9846,-0.135,0.08200000000000007,0.05299999999999999,1.9778
 virtassist,D2N009,"[doctor] hi , bryan . how are you ?
 [patient] i'm doing well . i'm a little sore .
 [doctor] yeah ?
@@ -1527,7 +1527,7 @@ Patient Agreements: The patient understands and agrees with the recommended medi
   okay .
   okay .
   okay .
-  no , no questions .",0.067,0.768,0.165,0.9928,0.185,0.609,0.206,0.0291
+  no , no questions .",0.067,0.768,0.165,0.9928,0.185,0.609,0.206,0.0291,-0.118,0.15900000000000003,-0.04099999999999998,0.9637
 virtassist,D2N010,"[doctor] hi keith , how are you ?
 [patient] ah , not too good . my blood sugar is n't under control .
 [doctor] and , uh , so keith is a 58-year-old male here for evaluation of high blood sugar . so , what happened ? ha- have you just been taking your blood sugars at home and noticed that they're really high ? or ?
@@ -1700,7 +1700,7 @@ Patient Agreements: The patient understands and agrees with the recommended medi
   alpha-gal syndrome , the one where a tick bites you and you get an allergic reaction to meat .
   i have .
   that sounds good .
-  definitely .",0.024,0.786,0.19,0.9989,0.147,0.756,0.096,-0.8965
+  definitely .",0.024,0.786,0.19,0.9989,0.147,0.756,0.096,-0.8965,-0.123,0.030000000000000027,0.094,1.8954
 virtassist,D2N011,"[doctor] hi , roger . how are you ?
 [patient] hey . good to see you .
 [doctor] good to see you . are you ready to get started ?
@@ -1812,7 +1812,7 @@ Patient Agreements: The patient understands and agrees with the recommended medi
   mm-hmm .
   mm-hmm .
   okay . sounds good .
-  you got it .",0.083,0.792,0.125,0.9468,0.131,0.741,0.127,-0.2198
+  you got it .",0.083,0.792,0.125,0.9468,0.131,0.741,0.127,-0.2198,-0.048,0.051000000000000045,-0.0020000000000000018,1.1665999999999999
 virtassist,D2N012,"[doctor] hi , joseph . how are you ?
 [patient] hey , i'm okay . good to see you .
 [doctor] good to see you . are you ready to get started ?
@@ -1941,7 +1941,7 @@ Patient Agreements: The patient understands and agrees with the recommended medi
   mm-hmm .
   perfect .
   great .
-  same here .",0.066,0.787,0.147,0.9914,0.09,0.779,0.131,0.9095
+  same here .",0.066,0.787,0.147,0.9914,0.09,0.779,0.131,0.9095,-0.023999999999999994,0.008000000000000007,0.015999999999999986,0.08189999999999997
 virtassist,D2N013,"[doctor] hi , john , how are you doing ?
 [patient] hi , good to see you .
 [doctor] good to see you too . so i know the nurse told you about dax , i'd like to tell dax a little about you .
@@ -2089,7 +2089,7 @@ Patient Agreements: The patient understands and agrees with the recommended medi
   well , i'll try something new just to help . if it helps that'd be great .
   i am .
   sure .
-  not at this point , no .",0.054,0.797,0.149,0.994,0.038,0.738,0.223,0.9855
+  not at this point , no .",0.054,0.797,0.149,0.994,0.038,0.738,0.223,0.9855,0.016,0.05900000000000005,-0.07400000000000001,0.008499999999999952
 virtassist,D2N014,"[doctor] hi , louis . how are you ?
 [patient] hi . good to see you .
 [doctor] it's good to see you as well . are you ready to get started ?
@@ -2230,7 +2230,7 @@ Patient Agreements: The patient understands and agrees with the recommended medi
   mm-hmm .
   okay . perfect .
   good to hear .
-  great .",0.092,0.81,0.098,-0.9229,0.098,0.693,0.209,0.9817
+  great .",0.092,0.81,0.098,-0.9229,0.098,0.693,0.209,0.9817,-0.006000000000000005,0.1170000000000001,-0.11099999999999999,-1.9046
 virtassist,D2N015,"[doctor] thanks , rachel . nice , nice to meet you .
 [patient] yeah .
 [doctor] um , as my nurse told you , we're using dax . so i'm just gon na tell dax a little bit about you .
@@ -2393,7 +2393,7 @@ Patient Agreements: The patient understands and agrees with the recommended medi
   mm-hmm .
   mm-hmm .
   okay .
-  no , i think this is good . thank you .",0.062,0.778,0.16,0.9939,0.039,0.78,0.181,0.9904
+  no , i think this is good . thank you .",0.062,0.778,0.16,0.9939,0.039,0.78,0.181,0.9904,0.023,-0.0020000000000000018,-0.02099999999999999,0.0035000000000000586
 virtassist,D2N016,"[doctor] hi , edward , how are you ?
 [patient] i'm doing well , yourself ?
 [doctor] i'm doing okay .
@@ -2591,7 +2591,7 @@ Patient Agreements: The patient understands and agrees with the recommended medi
   yes .
   okay .
   good . good .
-  no questions .",0.045,0.764,0.191,0.9987,0.073,0.668,0.259,0.9921
+  no questions .",0.045,0.764,0.191,0.9987,0.073,0.668,0.259,0.9921,-0.027999999999999997,0.09599999999999997,-0.068,0.00660000000000005
 virtassist,D2N017,"[doctor] hello , mrs . peterson .
 [patient] hi , doctor taylor . good to see you .
 [doctor] you're here for your hip today , or your- your leg today ?
@@ -2682,7 +2682,7 @@ At this point, I discussed the diagnosis and treatment options with the patient.
   yes , it does .
   no .
   i've been going back and forth between taking ibuprofen and tylenol .
-  okay , sounds good .",0.062,0.821,0.117,0.9344,0.086,0.704,0.21,0.9803
+  okay , sounds good .",0.062,0.821,0.117,0.9344,0.086,0.704,0.21,0.9803,-0.023999999999999994,0.11699999999999999,-0.09299999999999999,-0.04589999999999994
 virtassist,D2N018,"[doctor] hi miss russell .
 [patient] hi-
 [doctor] nice to meet you-
@@ -2857,7 +2857,7 @@ All questions were answered.
   no , i do n't have no allergies .
   no , i do n't .
   okay .
-  thank you .",0.068,0.831,0.102,0.892,0.131,0.628,0.24,0.9654
+  thank you .",0.068,0.831,0.102,0.892,0.131,0.628,0.24,0.9654,-0.063,0.20299999999999996,-0.138,-0.07340000000000002
 virtassist,D2N019,"[doctor] hi ms. hernandez , dr. fisher , how are you ?
 [patient] hi dr. fisher . i'm doing okay except for my elbow here .
 [doctor] all right . so it's your right elbow ?
@@ -2976,7 +2976,7 @@ it looks like , i mean , the bones are lined up properly . there's no fracture-
   uh , no that's fine . yeah .
   hmm .
   no , no . thank you .
-  okay , sounds good .",0.037,0.864,0.099,0.9717,0.125,0.594,0.282,0.9785
+  okay , sounds good .",0.037,0.864,0.099,0.9717,0.125,0.594,0.282,0.9785,-0.088,0.27,-0.18299999999999997,-0.006800000000000028
 virtassist,D2N020,"[doctor] hi , vincent . how are you ?
 [patient] i'm good . how about you ?
 [doctor] i'm good . so le- are you ready to get started ?
@@ -3125,7 +3125,7 @@ um , and i know a few years ago , you had , had that scare with the possible lun
   yup , yup . the coffee's the hard part .
   sure .
   sure thing .
-  see you .",0.08,0.747,0.173,0.9938,0.115,0.733,0.152,0.7742
+  see you .",0.08,0.747,0.173,0.9938,0.115,0.733,0.152,0.7742,-0.035,0.014000000000000012,0.02099999999999999,0.21960000000000002
 virtscribe,D2N021,"[doctor] next patient is christine hernandez , uh , date of birth is january 13th , 1982 .
 [doctor] hey , miss christine , how are you doing today ?
 [patient] i'm good , thanks . how are you ?
@@ -3469,7 +3469,7 @@ She will repeat all labs prior to her next visit.
   okay .
   okay .
   okay , i will . i'll let you know .
-  okay , great , thank you so much .",0.031,0.798,0.171,0.9998,0.031,0.689,0.28,0.9995
+  okay , great , thank you so much .",0.031,0.798,0.171,0.9998,0.031,0.689,0.28,0.9995,0.0,0.1090000000000001,-0.10900000000000001,0.00029999999999996696
 virtscribe,D2N022,"[doctor] this is philip gutierrez , date of birth 1/12/71 . he is a 50-year-old male here for a second opinion regarding the index finger on the right hand . he had a hyperextension injury of that index finger during a motor vehicle accident in march of this year . he was offered an injection of the a1 polyregion , but did not want any steroid because of the reaction to dexamethasone , which causes his heart to race . he was scheduled to see dr. alice davis , which it does n't appear he did . he had an mri of that finger , because there was concern about a capsular strain plus or minus rupture of , quote , "" fds tendon , "" end quote . he has been seen at point may orthopedics largely by the physical therapy staff and a pr , pa at that institution .
 [doctor] at that practice , an mri was obtained on 4/24/2021 , which showed just focal soft tissue swelling over the right index mcp joint , partial-thickness tear of the right fds , and fluid consistent with tenosynovitis around the fdp and fds tendons . radial and ulnar collateral ligaments of the index mcp joint were intact , as the mcp joint capsule . extensor tendons also deemed intact .
 [doctor] his x-rays , four views of the right hand today , show no bony abnormalities , joint congruency throughout all lesser digits on the right hand , no soft tissue shadows of concern , no arthritis . hi , how are you , mr . gutierrez ?
@@ -3676,7 +3676,7 @@ Occupational therapy as prescribed.
   uh , not at the moment .
   um , okay . that's kinda why i'm here , for you to tell me what needs to be done , you know ?
   all right , sounds like a plan .
-  thanks , doc .",0.072,0.778,0.15,0.999,0.057,0.762,0.181,0.9961
+  thanks , doc .",0.072,0.778,0.15,0.999,0.057,0.762,0.181,0.9961,0.014999999999999993,0.016000000000000014,-0.031,0.0029000000000000137
 virtscribe,D2N023,"[doctor] next patient is paul edwards , date of birth is january 15th 1962 . so he's a 59 year old hiv positive gentleman here for hypogonadism . patient was last seen on november 24th 2020 . his notable things are number one , he is on 1 milliliter every 10 days , uh , his levels were less than 300 to begin with . he's on finasteride currently . he also takes cialis daily so he takes all his pills just from me . um , patient's other area of concern is gynecomastia which is ... which we will discuss with him today . his last psa was 0.66 and his last testosterone was greater than 1,500 .
 [doctor] hey , how are you today ?
 [patient] all right , how have you been ?
@@ -3889,7 +3889,7 @@ I provided paper prescription refills for Cialis and Finasteride.
   no changes , i use walmart pharmacy . i do need more cialis and finasteride .
   i would prefer the paper prescription .
   sure .
-  okay , thank you .",0.044,0.773,0.183,0.9976,0.01,0.716,0.274,0.9987
+  okay , thank you .",0.044,0.773,0.183,0.9976,0.01,0.716,0.274,0.9987,0.033999999999999996,0.05700000000000005,-0.09100000000000003,-0.0010999999999999899
 virtscribe,D2N024,"[doctor] patient is pamela cook . medical record number is 123546 . she's a 36-year-old female post bilateral reduction mammoplasty on 10-10 20-20 .
 [doctor] hey , how are you ?
 [patient] good . how are you ?
@@ -4024,7 +4024,7 @@ Follow up in 6 months to reevaluate scars.
   sounds good .
   yeah , same here .
   all right .
-  okay .",0.049,0.797,0.154,0.9945,0.071,0.728,0.201,0.9602
+  okay .",0.049,0.797,0.154,0.9945,0.071,0.728,0.201,0.9602,-0.021999999999999992,0.06900000000000006,-0.047000000000000014,0.0343
 virtscribe,D2N025,"[doctor] next patient is nicole miller . date of birth is 09/18/1949 . patient was called for a follow-up with me for chronic congestive heart failure with diastolic dysfunction . bmp's been , uh , 3,000 in march , and is about six- was up to 6,000 in april . she was increasingly dyspneic . we changed her furosemide and torsemide 20 milligrams by mouth daily . uh to note , the patient is not currently on potassium supplement . her lisinopril had- has also been increased up to 10 milligrams daily in march . also did when i saw her last april . she reported being interested in having her right knee replaced this summer at east metro . it was recommended that we work to control her cardiovascular status before surgery .
 [doctor] hey , miss miller , how are you today ?
 [patient] i'm doing okay , thank you .
@@ -4233,7 +4233,7 @@ Complete EKG today. Schedule a preop checkup 1st or 2nd week of June. Start magn
   okay , that sounds good .
   okay , yeah whatever you can get me in , that works great .
   great , thank you .
-  sounds good .",0.038,0.808,0.154,0.9993,0.099,0.616,0.285,0.9971
+  sounds good .",0.038,0.808,0.154,0.9993,0.099,0.616,0.285,0.9971,-0.061000000000000006,0.19200000000000006,-0.13099999999999998,0.0021999999999999797
 virtscribe,D2N026,"[doctor] dictating on donald clark . date of birth , 03/04/1937 . chief complaint is left arm pain . hello , how are you ?
 [patient] good morning .
 [doctor] it's nice to meet you . i'm dr. miller .
@@ -4447,7 +4447,7 @@ Continue home exercise program and twice daily gabapentin. Schedule MRI and epid
   okay . sounds good .
   all right . is the mri today ?
   all right .
-  you as well . thank you .",0.064,0.8,0.136,0.9966,0.059,0.72,0.221,0.9967
+  you as well . thank you .",0.064,0.8,0.136,0.9966,0.059,0.72,0.221,0.9967,0.0050000000000000044,0.08000000000000007,-0.08499999999999999,-9.999999999998899e-05
 virtscribe,D2N027,"[doctor] eugene walker , n- date of birth 4/14/1960 . he's a 61-year-old male who presents today , uh , for a routine follow-up with chronic medical conditions .
 [doctor] of note , the patient underwent an aortic valve replacement and ascending aortic aneurysm repair on 1/22/2013 . regarding his blood work from 4/10/2021 , the patient's alkaline phosphatate- phosphatase , excuse me , was elevated to 156 . his lipid panel showed elevated total cholesterol of 247 , hdl of 66 , ldl of 166 , and triglycerides at 74 . the patient's tsh was normal at 2.68 . his cbc was unremarkable . his most recent vitamin d level was at the high end of normal at 94 .
 [doctor] good morning , mr. walker . how are you doing ? i mean , it's been a crazy year .
@@ -4642,7 +4642,7 @@ INSTRUCTIONS
   sounds good .
   sounds like i'm going to be busy getting this all checked out .
   no , doc . i think you covered it all .
-  thanks , doc . have a great day .",0.04,0.864,0.096,0.9904,0.079,0.786,0.135,0.9844
+  thanks , doc . have a great day .",0.04,0.864,0.096,0.9904,0.079,0.786,0.135,0.9844,-0.039,0.07799999999999996,-0.03900000000000001,0.005999999999999894
 virtscribe,D2N028,"[doctor] patrick allen . date of birth : 7/7/1977 . new patient visit . past medical history includes gerd , anxiety , depression . here for chronic abdominal pain . he had an abdominal ct on 1/23/2020 . impression is a normal ct of the ab- abdomen .
 [doctor] hello , are you mr. allen ?
 [patient] yes , i am .
@@ -4950,7 +4950,7 @@ Return to clinic in 4 weeks.
   okay . and i'll talk to my primary care about my crestor .
   i do n't think so .
   okay . sounds good .
-  all right . thanks , dr. edwards .",0.057,0.815,0.128,0.9971,0.07,0.762,0.168,0.9949
+  all right . thanks , dr. edwards .",0.057,0.815,0.128,0.9971,0.07,0.762,0.168,0.9949,-0.013000000000000005,0.052999999999999936,-0.04000000000000001,0.0021999999999999797
 virtscribe,D2N029,"[doctor] next patient is sophia jackson , mrnr472348 . she's a 57 year old female who is here for a surgical consult . her dermatologist referred her . she biopsied a 0.7 millimeter lesion which was located on right inferior back . pathology came back as melanoma .
 [doctor] mrs. jackson , it's good to meet you .
 [patient] likewise , wish it were under better circumstances .
@@ -5117,7 +5117,7 @@ The patient presents today with newly diagnosed melanoma. The biopsy revealed an
   yeah , she did say she wants to see me back .
   yeah , she definitely went over that , um , several times with me .
   um , no i ca n't think of any at this time .
-  thank you , nice to meet you as well .",0.081,0.813,0.106,0.9777,0.077,0.658,0.264,0.9927
+  thank you , nice to meet you as well .",0.081,0.813,0.106,0.9777,0.077,0.658,0.264,0.9927,0.0040000000000000036,0.15499999999999992,-0.15800000000000003,-0.015000000000000013
 virtscribe,D2N030,"[doctor] donna torres , date of birth , 08/01/1980 .
 [doctor] hi donna ! how are you ?
 [patient] i'm good . how about you ?
@@ -5350,7 +5350,7 @@ Schedule appointment with breast specialist. Call clinic with any additional con
   okay . i'll do whatever you think i should .
   okay , i think that sounds great .
   no , i think i'm all set .
-  all right , thank you . you have a good day too .",0.074,0.749,0.178,0.9981,0.117,0.69,0.193,0.9933
+  all right , thank you . you have a good day too .",0.074,0.749,0.178,0.9981,0.117,0.69,0.193,0.9933,-0.04300000000000001,0.05900000000000005,-0.015000000000000013,0.0048000000000000265
 virtscribe,D2N031,"[doctor] sophia brown . date of birth , 3/17/1946 . this is a new patient visit . she's here to establish care for a history of dcis . we'll go over the history with the patient .
 [doctor] hello , ms. brown .
 [patient] hi . yes , that's me .
@@ -5566,7 +5566,7 @@ PLAN
   okay . that sounds great . and when do i come back in to see you ?
   okay , i can do that .
   i do n't think so .
-  you as well .",0.066,0.75,0.184,0.9988,0.07,0.75,0.18,0.9818
+  you as well .",0.066,0.75,0.184,0.9988,0.07,0.75,0.18,0.9818,-0.0040000000000000036,0.0,0.0040000000000000036,0.017000000000000015
 virtscribe,D2N032,"[doctor] good morning ms. reyes !
 [patient] good morning .
 [doctor] how are you doing ma'am ?
@@ -5865,7 +5865,7 @@ Schedule a follow up appointment in 3 months to assess her pain. If needed, a se
   i would like to definitely get the injection .
   okay , that sounds good .
   i'm good .
-  see you . have a nice day .",0.113,0.712,0.175,0.9941,0.251,0.541,0.208,-0.9115
+  see you . have a nice day .",0.113,0.712,0.175,0.9941,0.251,0.541,0.208,-0.9115,-0.138,0.17099999999999993,-0.033,1.9056
 aci,D2N033,"[doctor] so sophia i see that you you hurt your knee tell me about what happened
 [patient] yeah i was jumping on my kid's trampoline and i could just slipped out from under me
 [doctor] my gosh one of those big trampolines in your back yard
@@ -5976,7 +5976,7 @@ Patient Agreements: The patient understands and agrees with the recommended medi
   yeah
   yeah that hurts
   yeah that sounds great thank you
-  no that's it thanks",0.066,0.768,0.166,0.9928,0.124,0.614,0.262,0.9623
+  no that's it thanks",0.066,0.768,0.166,0.9928,0.124,0.614,0.262,0.9623,-0.057999999999999996,0.15400000000000003,-0.096,0.03049999999999997
 aci,D2N034,"[doctor] alright you can go ahead
 [patient] hey alan i good to see you today so i looked here my appointment notes and i see that you're coming in you had some shoulder pain left shoulder pain for the last three weeks so
 [doctor] how you doing is it is it gotten any better
@@ -6096,7 +6096,7 @@ The patient will follow up with me once the MRI results are available for review
   and so we're gon na begin with that just to make sure nothing else is going on have you done physical therapy before
   okay so what i'm gon na do i'm going to refer you to physical therapy for approximately six to eight weeks and so they can help you strengthen those muscles around your shoulder and that should definitely help with the pain during that time you can also continue to take tylenol i do n't think i need to prescribe anything else for the pain you said as it's working pretty good for you so if your symptoms do n't improve we can consider a steroid injection of your shoulder which should provide some relief but i think right now we can just go with the the pt and hopefully that works to alleviate your injury so do you have any questions about the plan
   yeah so many patients are very successful with rehab and so we'll start with that and see how you do most most of the time once we build up those muscles around that shoulder you know things things the pain alleviates itself and and and you will be good to go back to working on your basement and running and jogging and lifting weights all all the active things people do these days
-  bye",0.158,0.663,0.179,0.4292,0.104,0.743,0.153,0.9923
+  bye",0.158,0.663,0.179,0.4292,0.104,0.743,0.153,0.9923,0.054000000000000006,-0.07999999999999996,0.025999999999999995,-0.5630999999999999
 aci,D2N035,"[doctor] well hello christina so how are you doing i was notified you were in the hospital for some heart failure what happened
 [patient] well i'm doing better now but i just started having problems that my ankles were swelling and could n't get them to go down even when i went to bed and could n't breathe very good had to get propped up in bed so i could breathe at night and so i just really got to feeling bad i called my friend diane and she said i probably ought to call nine one one since i was having a hard time talking and so i called nine one one and they sent out an ambulance and they took me into the er on the it was quite an experience
 [doctor] yeah
@@ -6266,7 +6266,7 @@ The patient will follow up in 3 months.",,female,,christina,,Congestive heart fa
   no no chest pain
   okay
   no i do n't think so not today
-  okay",0.071,0.759,0.169,0.996,0.157,0.651,0.192,0.7726
+  okay",0.071,0.759,0.169,0.996,0.157,0.651,0.192,0.7726,-0.08600000000000001,0.10799999999999998,-0.022999999999999993,0.22340000000000004
 aci,D2N036,"[doctor] hey george how are you today i understand you're here for some numbness and tingling in your fingers and some pain in your wrist
 [patient] right my right wrist and hand has been bothering me probably for a few months now with pain and numbness
 [doctor] okay and you said that's been ongoing for several months do you know what caused this type of pain or is it just something that started slowly or
@@ -6402,7 +6402,7 @@ The patient will follow up with me in 2 weeks.",,male,57.0,George,Lewis,left wri
   okay
   backyard elasis rehab remodel that's i mean i suppose we could do we have n't done things like that in a while because we're busy enough with just the up key but it's something to explore
   no i think it's all clear i appreciate it
-  very good appreciate your time",0.033,0.812,0.155,0.9977,0.092,0.68,0.227,0.9934
+  very good appreciate your time",0.033,0.812,0.155,0.9977,0.092,0.68,0.227,0.9934,-0.059,0.132,-0.07200000000000001,0.0043000000000000815
 aci,D2N037,"[doctor] hey dylan what's going on so i lift quite a bit of weights i try to stay in shape as much as i can i'm not like normal people i lift heavy weights and my elbow is extremely sore which elbow is it
 [patient] actually it's both my elbows but my right elbow is hurting me the most
 [doctor] okay and you said you lift a lot of weights
@@ -6638,7 +6638,7 @@ After reviewing the patient's examination and radiographic findings today, we ha
   man you doctors are good
   just trying to figure out how you're doing
   you're welcome
-  you have a good day",0.113,0.74,0.147,0.9271,0.085,0.589,0.326,0.9969
+  you have a good day",0.113,0.74,0.147,0.9271,0.085,0.589,0.326,0.9969,0.027999999999999997,0.15100000000000002,-0.17900000000000002,-0.06979999999999997
 aci,D2N038,"[patient] hey bruce so see here my my notes here is you here he had positive lab work for hep c so how're you doing today
 [doctor] i'm doing okay but i'm a little bit anxious about having hep c i've really surprised because i've been feeling fine they had done it as you know a screen as just part of my physical so i'm really surprised that that came back positive
 [patient] okay so in the past have any doctors ever told you that you had hep c
@@ -6754,7 +6754,7 @@ The patient will follow up with me in 3 weeks to review his results and discuss 
   okay yeah so we can start with the same screening that you had for august first so we'll just let's do that hep c antibody test and i'll actually help you set up those appointments with your your family doctor and then we can just see you back in three weeks and based on the results you know we will take action as needed okay
   alright
   my nurse will be in with those those orders
-  alright thanks",0.123,0.634,0.242,0.9868,0.008,0.867,0.124,0.9954
+  alright thanks",0.123,0.634,0.242,0.9868,0.008,0.867,0.124,0.9954,0.11499999999999999,-0.23299999999999998,0.118,-0.008599999999999941
 aci,D2N039,"[doctor] hi virginia how are you today what brings you in
 [patient] i'm doing alright i started seeing this new pcp last year and you know she has been doing a lot of changes to my medication and making sure everything is up to date and she my noticed that my blood pressure has been quite high so she added to medications but and but i you know i've been taking them i've been really good and i i before i was n't but now i am and we're still having a hard time controlling my blood pressure so she thought it would be a good idea for me to see you especially since she noted some on my last blood work she said something about my kidneys
 [doctor] okay yeah so okay let's before i dive into a lot of that tell me a little bit about how you've been feeling
@@ -6895,7 +6895,7 @@ The patient will follow-up in 3 weeks and will bring her blood pressure log with
   i'll have a couple of beers during the week and like one or two on the weekends
   no i i just it's a lot so i i'm hoping this will work and this will get it under control
   that sounds good thank you
-  okay alright bye",0.036,0.815,0.15,0.9989,0.106,0.705,0.189,0.9927
+  okay alright bye",0.036,0.815,0.15,0.9989,0.106,0.705,0.189,0.9927,-0.07,0.10999999999999999,-0.03900000000000001,0.006199999999999983
 aci,D2N040,"[doctor] carolyn is a 34 -year-old female with a history of diabetes mellitus type two who is here today with a headache so hi there carolyn it's nice to see you again listen i'm sorry you're having headaches well let's talk about it but i would like to record this conversation with this app that's gon na help me focus on you more would that be okay with you
 [patient] yes that's okay
 [doctor] okay great thanks so carolyn tell me about your headache and headache or headaches when did when did they start and and what symptoms are you having
@@ -7030,7 +7030,7 @@ The patient will follow up in 1 month. She can follow up or call sooner if her h
   no i really do n't get the opportunity to
   well would it so only call if if it gets worse or not any better
   no no i think it's just stress
-  thank you",0.052,0.749,0.199,0.9996,0.229,0.632,0.139,-0.9674
+  thank you",0.052,0.749,0.199,0.9996,0.229,0.632,0.139,-0.9674,-0.17700000000000002,0.11699999999999999,0.06,1.967
 aci,D2N041,"[doctor] hi teresa what's going on i heard that i heard that you're having a sore throat you're not feeling well
 [patient] yeah my throat has been hurting me for like four four days now and i think i had a fever last night because i was really sweaty but i did n't take my temperature because i was already in bed
 [doctor] okay alright so four days ago you started feeling badly okay now were you having chills
@@ -7192,7 +7192,7 @@ Patient Agreements: The patient understands and agrees with the recommended medi
   ah
   no that sounds good i just wanted to be sure i was okay because of the little kids
   sounds good
-  nope that's everything",0.103,0.772,0.125,0.9861,0.1,0.699,0.2,0.9918
+  nope that's everything",0.103,0.772,0.125,0.9861,0.1,0.699,0.2,0.9918,0.002999999999999989,0.07300000000000006,-0.07500000000000001,-0.005700000000000038
 aci,D2N042,"[doctor] good morning carolyn how are you
 [patient] i'm doing alright other than this ankle pain i've been having
 [doctor] so i see here that you hurt your right ankle can you tell me what happened
@@ -7322,7 +7322,7 @@ The patient will follow up in 2 weeks.",,female,38.0,carolyn,jones,Right ankle p
   no
   so how long do you think it'll take to heal
   okay
-  great thank you",0.049,0.808,0.143,0.9898,0.081,0.745,0.174,0.9743
+  great thank you",0.049,0.808,0.143,0.9898,0.081,0.745,0.174,0.9743,-0.032,0.06300000000000006,-0.031,0.015499999999999958
 aci,D2N043,"[doctor] how are you doing
 [patient] i'm doing i'm good i'm i'm doing really good i'm here i'm just ready to quit smoking and but i've been having quite a hard time with it
 [doctor] well i'm glad that you're taking the first steps to quit smoking would you tell me a little bit more about your history of smoking
@@ -7446,7 +7446,7 @@ I would like to see him again in 2 weeks to discuss how things are going and to 
   no not at this time
   no i think that's it thanks so much
   alrighty thank you
-  alright bye",0.047,0.753,0.2,0.9996,0.051,0.756,0.193,0.9961
+  alright bye",0.047,0.753,0.2,0.9996,0.051,0.756,0.193,0.9961,-0.003999999999999997,-0.0030000000000000027,0.007000000000000006,0.0035000000000000586
 aci,D2N044,"[doctor] good morning julie how are you doing this morning
 [patient] i've been better my primary care doctor wanted me to see you because of this this knee pain that i've been having for about six months now
 [doctor] okay and do you remember what caused the pain initially
@@ -7595,7 +7595,7 @@ Patient Agreements: The patient understands and agrees with the recommended medi
   so will i be able to run again
   no i think that's it
   okay you too
-  bye",0.09,0.733,0.177,0.9968,0.103,0.693,0.204,0.9832
+  bye",0.09,0.733,0.177,0.9968,0.103,0.693,0.204,0.9832,-0.012999999999999998,0.040000000000000036,-0.026999999999999996,0.013600000000000056
 aci,D2N045,"[doctor] hi abigail how are you today
 [patient] hello hi nice to meet you i'm i'm doing okay
 [doctor] good i'm doctor sanchez and i'm gon na go ahead and take a look i saw with your notes that you've been having some knee pain yes that's that's true you know it's been going on for a while i like to run i do jogs i sign up for the 5k tack you know sometimes the marathon and i have n't been doing longer distances because
@@ -7715,7 +7715,7 @@ The patient will follow up in 2 weeks.",sanchez,female,,abigail,,Right knee pain
   yeah that does i i was curious so i will lay off the running for now can i you know lift weights and do like my squats and and those type of exercises at the gym
   okay got it
   hmmm no i do n't think so
-  okay thanks doctor",0.07,0.762,0.168,0.9969,0.122,0.742,0.136,0.2682
+  okay thanks doctor",0.07,0.762,0.168,0.9969,0.122,0.742,0.136,0.2682,-0.05199999999999999,0.020000000000000018,0.032,0.7287
 aci,D2N046,"[doctor] okay so we are recording okay so okay so i understand you've so you've got a past medical history of type two diabetes and you're coming in and for evaluation of a newly diagnosed ovarian cancer so how are you doing today
 [patient] i do n't hear the question but i'm assuming that you when you say batcher so when i start talking about my dog and my three cats and all that those sort of things are not going to be included in the in the note
 [doctor] right i want you you can talk about those things yes
@@ -7815,7 +7815,7 @@ Patient Agreements: The patient understands and agrees with the recommended medi
   okay
   i did n't know you're gon na play a doctor today
   am i gon na die
-  alright alright",0.084,0.788,0.128,0.8045,0.224,0.612,0.165,-0.8674
+  alright alright",0.084,0.788,0.128,0.8045,0.224,0.612,0.165,-0.8674,-0.14,0.17600000000000005,-0.037000000000000005,1.6719
 aci,D2N047,"[doctor] hi billy how are you what's been going on the medical assistant told me that you're having some difficulty urinating
 [patient] yeah yeah i i did n't really wan na come in to talk about it's kinda weird but i think probably over the last six months i'm just not peeing right it just does n't seem to be normal
 [doctor] okay so let's talk a little bit about that now is your is your stream is your urination stream weak
@@ -7964,7 +7964,7 @@ He will follow up in 3 to 4 weeks and is advised to call or message me in the pa
   alright
   nope
   alright when is the urologist gon na call me
-  sounds good",0.037,0.809,0.154,0.9989,0.078,0.704,0.218,0.9923
+  sounds good",0.037,0.809,0.154,0.9989,0.078,0.704,0.218,0.9923,-0.041,0.1050000000000001,-0.064,0.00660000000000005
 aci,D2N048,"[doctor] alright brittany so i see that you are experiencing some right foot pain could you tell me what happened
 [patient] yeah well i was playing tennis and i was trying to you know volley the ball
 [doctor] mm-hmm
@@ -8108,7 +8108,7 @@ After reviewing the patient's examination and radiographic findings today, I hav
   thank you
   okay
   good
-  thank you",0.085,0.72,0.194,0.9993,0.125,0.701,0.174,0.9408
+  thank you",0.085,0.72,0.194,0.9993,0.125,0.701,0.174,0.9408,-0.039999999999999994,0.019000000000000017,0.020000000000000018,0.058499999999999996
 aci,D2N049,"[doctor] hey linda good to see you today so looking here in my notes looks like you you think you have a kidney stone think you've had them before and and you i guess you're having some pain and while we are here i see you i see you have a you have past medical history of hypertension diabetes and we will check up on those as well so with your kidney stone can you tell me what happened what's going on
 [patient] and i've been in a lot of pain it started about i would say probably about three days ago
 [doctor] okay
@@ -8277,7 +8277,7 @@ Patient Agreements: The patient understands and agrees with the recommended medi
   the back pain is starting to kind of go down into my groin but i would n't say any back pain i mean abdominal pain
   yes
   yes
-  that sounds good and i i just i just want this pain to go away so thank you",0.082,0.779,0.139,0.9966,0.141,0.635,0.224,0.9882
+  that sounds good and i i just i just want this pain to go away so thank you",0.082,0.779,0.139,0.9966,0.141,0.635,0.224,0.9882,-0.05899999999999998,0.14400000000000002,-0.08499999999999999,0.008400000000000074
 aci,D2N050,"[doctor] hey mason good to see you today so let's see you here in my notes for evaluation of kidney stones your your pcp said you had some kidney stones so you got a referral over so can you tell me a little bit about that you know what happened when did you first notice them
 [patient] yeah it was about you know about a week ago and i was working down in the the barn with the horses and you know i was moving some hay but i developed this real sudden onset of pain in my right back and i thought it initially it was from throwing hay but it i broke out into a sweat i got real nauseated and that's when i went and saw my doctor and he ordered a cat scan and said that i had a kidney stone but you know that's i i've never had that before my father's had them in the past but yeah so that's that's how that all happened
 [doctor] okay so you said you had the pain on the right hand side does it move anywhere or radiate
@@ -8359,7 +8359,7 @@ The patient will follow up with me in 1 to 2 weeks to check on his progress. If 
   i did i have a stroke
   that sounds perfect dear too
   thank you document
-  okay thank you",0.08,0.79,0.13,0.9807,0.091,0.808,0.101,0.2263
+  okay thank you",0.08,0.79,0.13,0.9807,0.091,0.808,0.101,0.2263,-0.010999999999999996,-0.018000000000000016,0.028999999999999998,0.7544
 aci,D2N051,"[doctor] hi jeremy how are you
 [patient] i'm really good thank you how are you
 [doctor] i'm okay the the medical assistant told me that you had this ulcer on your foot that's been there for a couple of weeks
@@ -8520,7 +8520,7 @@ The patient's coronary artery disease is currently stable. It is recommended tha
   any questions
   sure
   okay perfect
-  perfect thank you so much",0.059,0.787,0.154,0.9966,0.116,0.686,0.198,0.9877
+  perfect thank you so much",0.059,0.787,0.154,0.9966,0.116,0.686,0.198,0.9877,-0.05700000000000001,0.10099999999999998,-0.04400000000000001,0.008900000000000019
 aci,D2N052,"[doctor] so anna good to see you today so reading here in your appointment notes you were you were diagnosed with kidney stones from your your pcp and you currently have one and so they they had you come in so can you tell me what happened how's all that going for you
 [patient] sure i've been having some back pain on my right side it's been lasting for about a week now
 [doctor] okay
@@ -8616,7 +8616,7 @@ Follow up in 2 weeks.",,female,29.0,Anna,Diaz,right-sided back pain,,"so anna go
   not so much but i i got to participate a little bit i opened some eggs i just did n't go run around and find them
   a little bit yeah
   probably not enough i drink some but
-  no i do n't think so",0.067,0.793,0.14,0.994,0.106,0.793,0.1,-0.2805
+  no i do n't think so",0.067,0.793,0.14,0.994,0.106,0.793,0.1,-0.2805,-0.03899999999999999,0.0,0.04000000000000001,1.2745
 aci,D2N053,"[doctor] so barbara i i know you are here for some itchy scalp pain can you tell me a little bit about how you're doing
 [patient] yeah it's still quite a problem you know something i've been suffering with for so long now it's still quite itchy and it's really embarrassing too because i'll have dandruff so much like all over me but but i just ca n't stop itching
 [doctor] okay when did you first notice this
@@ -8699,7 +8699,7 @@ The patient will follow-up in 3 months or sooner if her conditions worsen.",,fem
   no okay so i'll just use that steroid solution and then just as needed if it's really bad but then otherwise just use the t gel
   alright
   alright perfect thank you
-  okay bye",0.045,0.829,0.126,0.9923,0.13,0.655,0.214,0.9634
+  okay bye",0.045,0.829,0.126,0.9923,0.13,0.655,0.214,0.9634,-0.085,0.17399999999999993,-0.088,0.028899999999999926
 aci,D2N054,"[doctor] hey elijah how are you
 [patient] i'm doing okay
 [doctor] so i see here that your primary care provider sent you over it looks like you were doing some yard work yesterday and dropped a landscape brick on your foot can what so what's going on with your right foot today
@@ -8808,7 +8808,7 @@ The patient wishes to think over his options before proceeding with the operatio
   what about putting in a cast can i just stay in the cast
   so if the surgery is going to be tomorrow when am i going to get my mri
   can i think about it and we have some time
-  okay",0.035,0.856,0.108,0.994,0.135,0.814,0.051,-0.9765
+  okay",0.035,0.856,0.108,0.994,0.135,0.814,0.051,-0.9765,-0.1,0.04200000000000004,0.057,1.9705
 aci,D2N055,"[doctor] karen nelson is a 3 -year-old female with no significant past medical history who comes in for evaluation of a new right eye twitch karen is accompanied by her father hi karen how are you
 [patient] i'm okay i guess
 [doctor] hey dad how are you doing
@@ -8972,7 +8972,7 @@ All questions were answered.",,female,3.0,karen,nelson,right eye twitch,,"karen 
   so you mean you're telling me you do n't think he had a seizure or a bit or nothing
   so you're not recommending any kind of treatment there is no pill or cream or nothing
   alright alright sounds good
-  doctor",0.054,0.785,0.161,0.9958,0.074,0.736,0.19,0.994
+  doctor",0.054,0.785,0.161,0.9958,0.074,0.736,0.19,0.994,-0.019999999999999997,0.049000000000000044,-0.028999999999999998,0.0018000000000000238
 aci,D2N056,"[patient] alright thanks for coming in today i see on my chart here that you had a bunch of lower respiratory infections so first tell me how are you what's going on
 [doctor] you know i'm doing better now but you know last week i was really sick and i just have had enough like i was coughing a lot a lot of mucus even had some shortness of breath and even a low-grade fever
 [patient] wow that is a lot so what did you do for some of those symptoms
@@ -9094,7 +9094,7 @@ Patient Agreements: The patient understands and agrees with the recommended medi
   so i reviewed your vitals and you appear to be breathing a little fast your respiratory rate is twenty but but your oxygen is you're satting kind of fine at ninety nine percent on room air so i'm not too worried about that on for on your heart exam i do you have a regular rate and regular rhythm i do not appreciate any murmurs rubs or gallops on your lung exam you know i do you do have some fine rales on your lung exam but no wheezes and on your musculoskeletal exam i do not appreciate any clubbing of your fingers so for your results i did review the results of your chest x-ray and i noticed some round glass opacities so let me tell you a little bit about like my assessment and plan for your first problem of recurrent lung infections your symptoms seem consistent with a condition we call hypersensitivity pneumonitis in your case another name is farmer's lung which you know is appropriate considering your job this could be caused by bacteria and or mold that is found in the hay when you inhale it it leads to an allergic reaction in your lungs this is why your symptoms occur every time you move hay for your current symptoms i'm gon na prescribe you a a course of an oral steroid this will help to decrease the inflammation that is occurring in your lungs i will also be ordering a cat scan of your lungs which will help confirm the diagnosis as as well a pulmonary function test to assess how severe your respiratory impairment is it would be best if you could eliminate your exposure to the hay or prevent further to prevent further damage to your lungs however if you are unable it's very important that you wear a respirator when moving hay around i know that that was a lot of information i think it boils down to pull in more of your siblings to help work around but do you have any questions
   so ideally what we are doing i think this is the best course of action to deal with the deeper problem right of these infections and to kind of like clear up the pneumonia everything seems to hint on so what we're gon na do is treat your current infection we're going to either prevent you from being around hay or make it so that it's safe for you to be with hay and then we're gon na see like what we need to do moving forward does that help
   alright
-  okay no problem",0.085,0.731,0.185,0.9825,0.045,0.793,0.162,0.9969
+  okay no problem",0.085,0.731,0.185,0.9825,0.045,0.793,0.162,0.9969,0.04000000000000001,-0.062000000000000055,0.022999999999999993,-0.014399999999999968
 aci,D2N057,"[patient] hi good afternoon joseph how are you doing today
 [doctor] i'm doing well but my my big toe hurts and it's a little red too but it really hurts okay how long has this been going on i would say you know off and on for about two weeks but last week is is when it really became painful i was at a a trade show convention and i could n't walk the halls i could n't do anything i just had to stand there and it really hurt the whole time i was there
 [patient] okay does it throb ache burn what kind of pain do you get with it
@@ -9275,7 +9275,7 @@ The patient will follow up with me in 2 weeks to check on his progress. If his p
   yeah that would
   that would be surgery if if we went in and cleaned out the joint sometimes in really severe cases we even just have to fuse the big toe joint we put it in a position of optimal function and we fuse it there and then your pain goes away you lose some motion but you've already lost quite a bit of motion and and the pain goes away so that that surgery really is very effective but let's try to run from my knife a little bit longer
   no i want you to be doing your regular activities i want to know how this because if i put you out of work can you come back in and say it feels better well is was it because of the treatment or because of the rest so no i want you to keep working i want you to do your regular activities and i really want you to put these orthotics to the test and this medicine to the test and we will see how you're doing in two weeks
-  very good we will see you in two weeks",0.097,0.678,0.225,0.9975,0.079,0.817,0.104,0.6583
+  very good we will see you in two weeks",0.097,0.678,0.225,0.9975,0.079,0.817,0.104,0.6583,0.018000000000000002,-0.1389999999999999,0.12100000000000001,0.33920000000000006
 aci,D2N058,"[doctor] russell ramirez is a 45 -year-old male with past medical history significant for cad status post prior status post prior rca stent in twenty eighteen hypertension and diabetes mellitus who presents for hospital follow-up after an anterior stemi now status post drug-eluting stent and lad and newly reduced ejection fraction ejection fraction thirty five percent and moderate mitral regurgitation alright russell hi how are you doing today
 [patient] hey document i i do n't know i'm doing alright i guess
 [doctor] just alright how's it
@@ -9428,7 +9428,7 @@ Patient Agreements: The patient understands and agrees with the recommended medi
   that sounds good document
   okay
   alright sounds good document
-  yeah you too",0.028,0.787,0.184,0.999,0.067,0.712,0.221,0.9973
+  yeah you too",0.028,0.787,0.184,0.999,0.067,0.712,0.221,0.9973,-0.03900000000000001,0.07500000000000007,-0.037000000000000005,0.0017000000000000348
 aci,D2N059,"[doctor] okay
 [patient] good morning
 [doctor] good morning thanks doctor doctor cooper i'm i'm you know i'm a little i'm sad to be in here but you know thanks for taking me in i appreciate it
@@ -9621,7 +9621,7 @@ The patient will follow up in 6 weeks for recheck.",Cooper,,,,,asthma,mood,"okay
   and it sounds like related to school expectations and the stress with saps and all of that
   okay let's consider having you start seeing a therapist i think that would be a good place to start
   and we will do some screening questionnaires and and then follow up in a couple weeks on that too
-  thank you",0.059,0.645,0.297,0.9995,0.069,0.771,0.16,0.9927
+  thank you",0.059,0.645,0.297,0.9995,0.069,0.771,0.16,0.9927,-0.010000000000000009,-0.126,0.13699999999999998,0.006800000000000028
 aci,D2N060,"[doctor] hey jean how're you doing today
 [patient] i'm doing alright aside from this foot pain that i have
 [doctor] so i see here that you looks like you hurt your left foot here where you were playing soccer can you tell me a little bit more about what happened
@@ -9727,7 +9727,7 @@ We will see the patient on Monday, for surgery.",,female,27.0,jean,martinez,Left
   yeah just like this local town leak i started playing that way and then played all throughout school
   high school teams
   no i have not
-  alright thank you",0.041,0.86,0.099,0.9823,0.149,0.662,0.189,0.7958
+  alright thank you",0.041,0.86,0.099,0.9823,0.149,0.662,0.189,0.7958,-0.10799999999999998,0.19799999999999995,-0.09,0.1865
 aci,D2N061,"[doctor] hi virginia how're you today
 [patient] i'm good thanks how are you
 [doctor] good so you know you got that knee x-ray when you first came in but tell me a little bit about what happened
@@ -9859,7 +9859,7 @@ The patient will follow up with me in 7 days to check on her progress. If her sw
   i just played the wife with fun
   yeah they do
   we do let me know and i can get you the hook up
-  i think you've answered them all thank you",0.071,0.774,0.154,0.9985,0.083,0.717,0.201,0.9217
+  i think you've answered them all thank you",0.071,0.774,0.154,0.9985,0.083,0.717,0.201,0.9217,-0.01200000000000001,0.05700000000000005,-0.047000000000000014,0.07680000000000009
 aci,D2N062,"[doctor] okay raymond it looks like you've been having some difficulty swallowing over for a period of time could you tell me like what's going on
 [patient] well i've been better for the last several weeks i've been noticing that it's been hard for me to swallow certain foods and i also have pain when i swallow down in my chest
 [doctor] okay and when does it does it happen every time you eat
@@ -9953,7 +9953,7 @@ The patient will follow up with me in 1 week for his endoscopy.",,male,67.0,raym
   not that i noticed
   no i did that hurts
   no
-  no i think that's all good",0.075,0.699,0.227,0.999,0.217,0.667,0.116,-0.9801
+  no i think that's all good",0.075,0.699,0.227,0.999,0.217,0.667,0.116,-0.9801,-0.14200000000000002,0.03199999999999992,0.111,1.9790999999999999
 aci,D2N063,"[doctor] so gloria is a 46 -year-old female today with past medical history of diabetes and back pain and today here for shortness of breath with chf and copd also so gloria tell me what's going on
 [patient] i i i'm having a lot of trouble sleeping
 [doctor] okay and and how long has this been going on for
@@ -10145,7 +10145,7 @@ We will have her follow up in a couple of days.",,female,46.0,gloria,,dyspnea,ba
   i do n't think so which color pills
   okay
   alright sounds good
-  no that's it",0.062,0.813,0.125,0.9964,0.176,0.731,0.093,-0.9734
+  no that's it",0.062,0.813,0.125,0.9964,0.176,0.731,0.093,-0.9734,-0.11399999999999999,0.08199999999999996,0.032,1.9698
 aci,D2N064,"[doctor] hey matthew how're you doing
 [patient] hey doc i'm doing pretty good how are you
 [doctor] i'm doing pretty good hey i see here in the nurse's notes it looks like you hurt your left ankle can you tell me a little bit more about that
@@ -10240,7 +10240,7 @@ The patient will follow up with me in 2 weeks to assess his progress, sooner if 
   no i have n't been there yet
   awesome
   no i think that sounds like a plan
-  awesome thanks document",0.038,0.811,0.151,0.9962,0.107,0.753,0.14,0.8306
+  awesome thanks document",0.038,0.811,0.151,0.9962,0.107,0.753,0.14,0.8306,-0.069,0.05800000000000005,0.010999999999999982,0.16559999999999997
 aci,D2N065,"[doctor] hey anna good to see you today so i'm looking here in my notes says you have you're coming in today for some right ankle pain after a fall so can you tell me what happened how did you fall
 [patient] yeah so i was taking out the trash last night and i ended up slipping on a patch of ice like and then when i fell i heard this pop and it just hurts
 [doctor] okay so have you been able to walk on it at all or is it you know
@@ -10360,7 +10360,7 @@ If her pain does not improve over the next week, she will contact the office and
   okay thanks
   okay
   alright
-  no that's it",0.083,0.742,0.175,0.9974,0.092,0.606,0.303,0.996
+  no that's it",0.083,0.742,0.175,0.9974,0.092,0.606,0.303,0.996,-0.008999999999999994,0.136,-0.128,0.0013999999999999568
 aci,D2N066,"[doctor] hey gabriel i'm doctor scott good to see you today i know you've heard about dax is it okay if i tell dax a little bit about you
 [patient] sure
 [doctor] okay so gabriel is a 43 -year-old male today here for back pain evaluation and also has a past medical history of diabetes high blood pressure and high cholesterol so gabriel tell me what's going on with your back
@@ -10517,7 +10517,7 @@ The patient will follow up in 2 weeks.",scott good,male,43.0,gabriel,,back pain,
   these are like my video visit exams
   no
   no i i think i'm okay you gave me a year's worth of refills last time we were together
-  good to see you thanks",0.082,0.78,0.138,0.9964,0.11,0.725,0.165,0.9517
+  good to see you thanks",0.082,0.78,0.138,0.9964,0.11,0.725,0.165,0.9517,-0.027999999999999997,0.05500000000000005,-0.026999999999999996,0.04469999999999996
 aci,D2N067,"[doctor] hi elizabeth so i see that you were experiencing some kind of injury did you say that you hurt your knee
 [patient] yes i hurt my knee when i was skiing two weeks ago
 [doctor] okay skiing that sounds exciting alright so what happened what what's when did the injury like what sorry what happened in the injury
@@ -10744,4 +10744,4 @@ Regarding her left knee, I do not believe she will need any further medications 
   yes
   no
   yes
-  no thank you so much",0.079,0.692,0.229,0.9994,0.147,0.673,0.18,0.9227
+  no thank you so much",0.079,0.692,0.229,0.9994,0.147,0.673,0.18,0.9227,-0.06799999999999999,0.018999999999999906,0.049000000000000016,0.07669999999999999
