@@ -1,0 +1,9 @@
+Statistics:
+# of 1 YES: 43
+# of 2 YES: 3
+# of 3+ YES: 0
+# of diet YES: 3
+# of mental health YES: 39
+# of access to healthcare resources YES: 1
+# of social support YES: 6
+Total number of lines: 87
