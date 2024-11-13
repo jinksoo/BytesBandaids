@@ -6,8 +6,8 @@ def calculate_risk_score(data_line):
     scores = {
         "diet": 0,
         "mental_health": 0,
-        "medication_compliance": 0,
-        "social_determinants": 0
+        "access_healthcare": 0,
+        "social_support": 0
     }
     original_lines = []  # To store relevant original lines for output
 
@@ -15,8 +15,8 @@ def calculate_risk_score(data_line):
     keyword_mapping = {
         "diet": "diet",
         "mental health": "mental_health",
-        "medication compliance": "medication_compliance",
-        "social determinants of health": "social_determinants"
+        "access to healthcare resources": "access_healthcare",
+        "lack of social support": "social_support"
     }
     
     # Parse dictionary string to extract relevant fields
@@ -41,11 +41,11 @@ def calculate_risk_score(data_line):
 
 # Define the main function to read, process, and append output line by line
 def main():
-    input_filename = "/Users/matthewjinsookim/Downloads/train_SDoHoutput.txt"  # Replace with your input file path
-    output_filename = "/Users/matthewjinsookim/Downloads/PaRSoutput.txt"  # Replace with your desired output file path
-    shortened_output_filename = "/Users/matthewjinsookim/Downloads/sPaRSoutput.txt"
-    dfoutput_filename = "/Users/matthewjinsookim/Downloads/df_PaRSoutput.txt"
-    statistics_filename = "/Users/matthewjinsookim/Downloads/statistics.txt"
+    input_filename = "/Users/matthewjinsookim/Downloads/combined_SDoHoutput.txt"  # Replace with your input file path
+    output_filename = "/Users/matthewjinsookim/Downloads/combined_PaRSoutput.txt"  # Replace with your desired output file path
+    shortened_output_filename = "/Users/matthewjinsookim/Downloads/combined_sPaRSoutput.txt"
+    dfoutput_filename = "/Users/matthewjinsookim/Downloads/combined_df_PaRSoutput.txt"
+    statistics_filename = "/Users/matthewjinsookim/Downloads/combined_statistics.txt"
 
     # Initialize counters for statistics
     one_yes_count = 0
@@ -53,15 +53,15 @@ def main():
     three_or_more_yes_count = 0
     diet_yes_count = 0
     mental_health_yes_count = 0
-    medication_compliance_yes_count = 0
-    social_determinants_yes_count = 0
+    access_healthcare_yes_count = 0
+    social_support_yes_count = 0
     total_lines = 0
 
     with open(input_filename, 'r') as infile, open(output_filename, 'a') as outfile:
         for line in infile:
             line = line.strip()
             # Skip lines that start with an integer
-            if line and not line[0].isdigit():
+            if line and (line[0] != 'D'):
                 total_lines += 1  # Count each valid line processed
                 # write original line it parses
                 outfile.write(line + "\n")
@@ -72,8 +72,8 @@ def main():
                 # Update category-specific counts
                 diet_yes_count += scores["diet"]
                 mental_health_yes_count += scores["mental_health"]
-                medication_compliance_yes_count += scores["medication_compliance"]
-                social_determinants_yes_count += scores["social_determinants"]
+                access_healthcare_yes_count += scores["access_healthcare"]
+                social_support_yes_count += scores["social_support"]
 
                 # Update counters for number of "YES" responses
                 if total_score == 1:
@@ -97,15 +97,15 @@ def main():
         stats_file.write(f"# of 3+ YES: {three_or_more_yes_count}\n")
         stats_file.write(f"# of diet YES: {diet_yes_count}\n")
         stats_file.write(f"# of mental health YES: {mental_health_yes_count}\n")
-        stats_file.write(f"# of medication compliance YES: {medication_compliance_yes_count}\n")
-        stats_file.write(f"# of social determinants YES: {social_determinants_yes_count}\n")
+        stats_file.write(f"# of access to healthcare resources YES: {access_healthcare_yes_count}\n")
+        stats_file.write(f"# of social support YES: {social_support_yes_count}\n")
         stats_file.write(f"Total number of lines: {total_lines}\n")
 
     with open(input_filename, 'r') as infile, open(shortened_output_filename, 'a') as outfile:
         for line in infile:
             line = line.strip()
             # Skip lines that start with an integer
-            if line and not line[0].isdigit():
+            if line and (line[0] != 'D'):
 
                 # Process each line to calculate score and formatted output
                 total_score, scores, output_lines, orig_line = calculate_risk_score(line)
@@ -115,29 +115,6 @@ def main():
                 for output_line in output_lines:
                     outfile.write(output_line + "\n")
                 outfile.write("\n")  # Add newline for readability between records
-
-    # Initialize encounter ID start point
-    encounter_prefix = "D2N"
-    encounter_id = 1
-
-    with open(input_filename, 'r') as infile, open(dfoutput_filename, 'a') as outfile:
-        for line in infile:
-            line = line.strip()
-            # Skip lines that start with an integer
-            if line and not line[0].isdigit():
-                # Process each line to get Y/N statuses for each category
-                status, total = calculate_risk_score(line)
-                
-                # Generate the encounter ID
-                encounter_ID = f"{encounter_prefix}{encounter_id:03}"
-                
-                # Write to the output file in the specified format
-                outfile.write(f"{{encounter_ID: {encounter_ID}, diet: {status['diet']}, mental health: {status['mental_health']}, "
-                              f"medication compliance: {status['medication_compliance']}, "
-                              f"social determinants: {status['social_determinants']}, total risk: {total}}}\n")
-                
-                # Increment encounter ID for the next patient
-                encounter_id += 1
 
     print(f"Processing complete. Statistics written to {statistics_filename}")
 
