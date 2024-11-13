@@ -1,0 +1,409 @@
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+
+Total Risk Score = 0
+
+Total Risk Score = 2
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: Yes
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+
+Total Risk Score = 0
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: Yes
+
+Total Risk Score = 1
+Risk Score: diet: Yes
+Risk Score: mental health: No
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: Yes
+Risk Score: mental health: No
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: Yes
+Risk Score: mental health: No
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: Yes
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 2
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: access to healthcare resources: Yes
+Risk Score: lack of social support: Yes
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 2
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: Yes
+
+Total Risk Score = 0
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: Yes
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+
+Total Risk Score = 0
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+
+Total Risk Score = 0
+
+Total Risk Score = 0
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+
+Total Risk Score = 0
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+
+Total Risk Score = 0
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+
+Total Risk Score = 0
+Risk Score: diet: No
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+
+Total Risk Score = 0
+
+Total Risk Score = 0
+
+Total Risk Score = 0
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+
+Total Risk Score = 0
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+Risk Score: diet: No
+Risk Score: mental health: No
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 1
+Risk Score: diet: No
+Risk Score: mental health: Yes
+Risk Score: access to healthcare resources: No
+Risk Score: lack of social support: No
+
+Total Risk Score = 0
+
+Total Risk Score = 0
+
+Total Risk Score = 0
+
