@@ -44,6 +44,7 @@ def main():
     input_filename = "/Users/matthewjinsookim/Downloads/train_SDoHoutput.txt"  # Replace with your input file path
     output_filename = "/Users/matthewjinsookim/Downloads/PaRSoutput.txt"  # Replace with your desired output file path
     shortened_output_filename = "/Users/matthewjinsookim/Downloads/sPaRSoutput.txt"
+    dfoutput_filename = "/Users/matthewjinsookim/Downloads/df_PaRSoutput.txt"
     statistics_filename = "/Users/matthewjinsookim/Downloads/statistics.txt"
 
     # Initialize counters for statistics
@@ -114,6 +115,29 @@ def main():
                 for output_line in output_lines:
                     outfile.write(output_line + "\n")
                 outfile.write("\n")  # Add newline for readability between records
+
+    # Initialize encounter ID start point
+    encounter_prefix = "D2N"
+    encounter_id = 1
+
+    with open(input_filename, 'r') as infile, open(dfoutput_filename, 'a') as outfile:
+        for line in infile:
+            line = line.strip()
+            # Skip lines that start with an integer
+            if line and not line[0].isdigit():
+                # Process each line to get Y/N statuses for each category
+                status, total = calculate_risk_score(line)
+                
+                # Generate the encounter ID
+                encounter_ID = f"{encounter_prefix}{encounter_id:03}"
+                
+                # Write to the output file in the specified format
+                outfile.write(f"{{encounter_ID: {encounter_ID}, diet: {status['diet']}, mental health: {status['mental_health']}, "
+                              f"medication compliance: {status['medication_compliance']}, "
+                              f"social determinants: {status['social_determinants']}, total risk: {total}}}\n")
+                
+                # Increment encounter ID for the next patient
+                encounter_id += 1
 
     print(f"Processing complete. Statistics written to {statistics_filename}")
 
